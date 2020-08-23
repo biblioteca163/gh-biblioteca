@@ -6,9 +6,9 @@
 }
 @font-face {
     font-family: Anima;
-    src: url(/biblioteca/fonts/Anima.ttf);
+    src: url(/biblioteca/fonts/Anima.ttf) format(truetype);
     font-family: MightyWorm;
-    src: url(/biblioteca/fonts/MightyWorm.ttf);
+    src: url(/biblioteca/fonts/MightyWorm.ttf) format(truetype);
 }
 * {
     margin: 0;
