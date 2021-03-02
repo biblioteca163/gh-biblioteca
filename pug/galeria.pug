@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/estilos.css")
+        link(rel="stylesheet", href="../css/materialize.css" media="screen,projection")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title Biblioteca Escolar BP 163 | Galería
+    body
+        include menu.pug
+        
+        .container
+            h3.red-text.text-lighten-3.titulo-galeria GALERÍA
+            p.center.flow-text Disfruta con los cuentos, fábulas, poesías, leyendas, recetas y muchas cosas más que tenemos para ofrecerte.<br/>Volá con la imaginación.
+            .carousel.fullscreen
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/jirafa_guillermina.jpg")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/los_gallos_y_la_perdiz.jpg")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/las_gafas_de_la_jirafa.jpg")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/los_perros_hambrientos.jpg")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/trabalenguas.jpg", alt="")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/receta_galletas_faciles.jpg")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/pan-dulce.webp")
+                a.carousel-item
+                    img.materialboxed.responsive-img(src="/images/galeria/receta_galletas_chocolate.png")
+
+        include footer.pug
+        script document.addEventListener('DOMContentLoaded', function () {M.AutoInit();});
+        script(src="../js/javascript.js")
+        script(src="../js/materialize.min.js")

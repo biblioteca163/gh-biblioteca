@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="css/materialize.css" media="screen,projection")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title Biblioteca Escolar BP 163 | VIDEOS
+    body
+        include menu.pug
+        .container
+            h3.red-text.text-lighten-3.titulo-galeria VIDEOS
+
+        .parallax-container 
+            .parallax 
+                img(src="/images/logo.jpg" style="objet-fit:cover;")
+            .grey.darken-1.espaciado
+                blockquote.center.folw-text.white-text La imaginación vuela con las palabras y toma forma en una lluvia de color y movimiento.<br/>Viaja y conoce nuevos mundos sin dejar la comodidad de tu hogar con estos videos que tenemos para vos.
+        .container.center
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "La totuga y el águila"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/vw6-ORM_Sn4", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen) 
+               
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "El surubí y el mar"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/Q7r8iA_xgxE", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+               
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "Tanky"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/RvPUaHT_-ls", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "Los 3 chanchitos"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/RkUBRlAgEcg", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "El viaje de Katy"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/XpU9zwFlwXA", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "Las partes del libro"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/C0X_GGJJmV0", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "La historia del libro y la escritura"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/Rkbek-vovGA", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "Lecturas para el día del libro"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/qvoyoglXuWc", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "Poesía 'Amigo libro'"
+                iframe(width="360" height="315", src="https://www.youtube.com/embed/a2K72ju57NM", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen)
+
+            .video-responsive
+                h4.videos-titulo.center.green-text.text-lighten-4 "La vaca estudiosa"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iVjoMzFdsZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        include footer.pug
+        script document.addEventListener('DOMContentLoaded', function () {M.AutoInit();});
+        script(src="js/javascript.js")
+        script(src="js/materialize.min.js")

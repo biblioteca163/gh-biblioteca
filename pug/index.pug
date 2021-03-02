@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="css/materialize.min.css" media="screen,projection")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title Biblioteca Escolar BP 163 | Inicio
+    body
+        include menu.pug
+        .parallax-container
+            .parallax
+                img(src="images/parallax4.jpg" alt="Imágen de caperucita roja")
+        .container
+            .section
+                h3.center BIENVENIDOS
+                p.flow-text.center Llevate la bibilioteca a tu casa, hacenos tu consulta y te acercamos el material digital que necesites. No te quedes, seguí aprendiendo desde donde estés.        
+        .grey.darken-2.white-text.center
+            .container
+                .section
+                    h3 COVID-19 Corona Virus
+                    blockquote.flow-text &nbsp &nbsp  Producto de la situación epidemiológica, la biblioteca se ve obligada a llevar sus servicios al plano virtual, acompañaado en la vuelta a clases a sus usuarios y la comunidad educativa en general. En este contexto de trabajo mixto acercamos a quien lo requiera una serie de recursos pedagógicos audiovisuales e información de referencia, así como diversas obras literarias de libre divulgación, actividades de manualidades, recetas, y muchas muchas cosas más.        
+        .parallax-container
+            .parallax
+                img(src="images/Caperucita Roja3.webp" alt="Imágen de caperucita roja")
+        include footer.pug
+        script document.addEventListener('DOMContentLoaded', function () {M.AutoInit();});
+        script(src="js/javascript.js")
+        script(src="js/materialize.min.js")

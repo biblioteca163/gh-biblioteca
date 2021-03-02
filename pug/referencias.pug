@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="css/materialize.css")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title Biblioteca Escolar BP 163 | Referencias
+    body
+        include menu.pug
+
+        .container
+            h3.red-text.text-lighten-3.titulo-galeria REFERENCIAS
+        
+        .container
+            .col.s12
+                ul(class="tabs")
+                    li.tab.col: a(href="#enero") Enero
+                    li.tab.col: a(href="#febrero") Febrero
+                    li.tab.col: a(href="#marzo") Marzo
+                    li.tab.col: a(href="#abril") Abril
+                    li.tab.col: a(href="#mayo") Mayo
+                    li.tab.col: a(href="#junio") Junio 
+                    li.tab.col: a(href="#julio") Julio
+                    li.tab.col: a(href="#agosto") Agosto
+                    li.tab.col: a(href="#septiembre") Septiembre
+                    li.tab.col: a(href="#octubre") Octubre
+                    li.tab.col: a(href="#noviembre") Noviembre
+                    li.tab.col: a(href="#diciembre") Diciembre 
+                 
+        .container
+            include enero.pug
+            include febrero.pug
+            include marzo.pug
+            include abril.pug
+            include mayo.pug
+            include junio.pug
+            include julio.pug
+            include agosto.pug
+            include septiembre.pug
+            include octubre.pug
+            include noviembre.pug
+            include diciembre.pug
+        include footer.pug
+        script document.addEventListener('DOMContentLoaded', function () {M.AutoInit();}); 
+        script(src="js/javascript.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+       
