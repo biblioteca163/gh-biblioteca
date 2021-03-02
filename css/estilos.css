@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+:root {
+    --titulo: #DB1400;
+    --titulo-hover: #8F1A0E;
+    --fondo-header: #3b3b3a;
+    --fondo-menu: #c5d382;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo {
+    font-family: 'Monoton';
+    font-weight: bolder;
+    font-size: 1.3rem !important;
+    margin-top: 0;
+    margin-left: 10px;
+    text-shadow: 1.5px 1.5px red;
+}
+
+.parallax-container {
+    width: 100% !important;
+}
+
+.item {
+    font-weight: bolder;
+}
+
+.titulo-galeria {
+    font-family: 'Monoton';
+    font-weight: bolder;
+    text-align: justify;
+    text-shadow: 0.7px .7px var(--fondo-header);
+}
+
+.espaciado {
+    margin-top: 20%;
+}
+
+@media(max-width:600px){
+    .espaciado{
+        margin-top: 40%;
+    }
+}
+
+.videos-titulo {
+    font-weight: bolder;
+    font-family: fantasy;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px rgb(5, 5, 5);
+}
+
+.titulo-tarjeta {
+    font-family:verdana;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: black .8px;
+}
+
+.card-action {
+    font-weight: bolder;
+}
+
+.parrafo-tarjeta {
+    font-family: cursive;
+    font-weight: 400;
+}
+
+ul {
+    padding-bottom: 60px;
+}
+
+.pie-catalogo {
+    font-size: 1rem !important;
+    font-weight: 400;
+    font-family: serif;
+}
